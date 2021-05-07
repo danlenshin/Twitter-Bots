@@ -1,0 +1,18 @@
+#All Directories
+**/keys.json
+**/.vscode/
+**/tweet.sh
+
+#Root Directory
+info.txt
+
+#NGADCArtBot
+NGADCArtBot/localImage.jpg
+
+#TimeCardsBot
+TimeCardsBot/*.mp4
+
+#UArticleBot
+UArticleBot/TweetRandom.sh
+UArticleBot/Wikipedia:Unusual_articles
+UArticleBot/*.json
