@@ -31,11 +31,9 @@ songline = songline.strip()
 
 #Checks if it is 9am on a saturday
 if now.weekday() == 5 and hour == 9:
-    #response = twython.update_status(status=link) #Tweet link to fight song
-    print("Tweeted fight song")
+    response = twython.update_status(status=link) #Tweet link to fight song
 else:
-    #response = twython.update_status(status=songline)
-    print("Tweeted:", songline)
+    response = twython.update_status(status=songline)
 
 #Updates data.json with next line
 if line == 15:
