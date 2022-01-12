@@ -12,7 +12,7 @@ import sys
 #Function to check if the site has an image link according to the img_link_regex
 def siteHasImage(soup):
     if soup.find("div", {"id": "art-object-carousel"}).find("img"):
-        if soup.find("div", {"id": "art-object-carousel"}).find("img")["src"] != "/content/dam/ngaweb/placeholder-440x400.jpg": #Checks if the image url is not the "no image" placeholder
+        if soup.find("div", {"id": "art-object-carousel"}).find("img")["src"] != "/content/dam/ngaweb/placeholders/placeholder-lg.svg": #Checks if the image url is not the "no image" placeholder
             return True
         else:
             return False
